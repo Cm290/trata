@@ -1,8 +1,7 @@
-let changeColor = document.getElementById('changeColor');
+let changeColor = document.getElementById('time-container');
 
-chrome.storage.sync.get('color', function(data) {
-  changeColor.style.backgroundColor = data.color;
-  changeColor.setAttribute('value', data.color);
+chrome.storage.sync.get('time', function(data) {
+  changeColor.innerText = data.time;
 });
 
 changeColor.onclick = function(element) {
