@@ -1,0 +1,27 @@
+{
+    "name": "Pomodora",
+    "description": "Creates a pomodora extension",
+    "version": "0.1",
+    "permissions": ["activeTab", "declarativeContent", "storage"],
+    "page_action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/tomato-red.png",
+        "32": "images/tomato-red.png",
+        "48": "images/tomato-red.png",
+        "128": "images/tomato-red.png"
+      }
+    },
+    "icons": {
+      "16": "images/tomato-red.png",
+      "32": "images/tomato-red.png",
+      "48": "images/tomato-red.png",
+      "128": "images/tomato-red.png"
+    },
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "options_page": "options.html",
+    "manifest_version": 2
+  }
