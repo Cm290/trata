@@ -1,6 +1,6 @@
 {
-    "name": "Pomodora",
-    "description": "Creates a pomodora extension",
+    "name": "Trata",
+    "description": "Creates a timer for pomodora style working",
     "version": "0.1",
     "permissions": ["activeTab", "declarativeContent", "storage"],
     "browser_action": {
